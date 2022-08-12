@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+.container-logo {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+.nav-enlace {
+
+    background: rgb(244, 247, 250);
+    color: rgb(28, 122, 204);
+    font-family: Gill Sans MT;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+
+
+
+}
+
+
+
+.nav-enlace:hover {
+    background: rgb(237, 145, 145);
+    border-radius: 25px;
+
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+
+
+
+/*este id va en html*/
+#atletas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+
+/*este id va en js*/
+#container-atletas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.img-atletas {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: #25308c;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.h2 {
+    font-size: 18px;
+    color: rgb(63, 90, 14);
+    margin-left: 60px;
+
+}
+
+p {
+    font-size: 18px;
+    color: rgb(63, 90, 14);
+    margin-left: 60px;
+}
+
+
+
+/*-------hasta aqui la primera parte--------- */
+#deportes {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#container-deportes {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+/**/
+
+.container-deportes {
+
+    margin-top: 50px;
+
+}
+
+
+
+.container-imagen {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.img-deportes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+
+
+}
+
+
+
+.img-deportes img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 400px;
+    margin: 15px;
+
+
+}
+
+
+.container-imagen p {
+    margin: 0;
+
+}
+
+
+.paragraphs-depo {
+    width: 380px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(49, 29, 29);
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+    margin: 15px;
+}
+
+.h2-depo {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 150;
+
+}
+
+.div-h2 {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+@media (max-width:750px) {
+    .container-imagen {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width:440px) {
+    .container-imagen {
+        flex-direction: column;
+
+
+    }
+
+    .container-imagen img {
+        margin: 0;
+
+
+
+    }
+}
